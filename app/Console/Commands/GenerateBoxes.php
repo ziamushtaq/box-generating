@@ -25,7 +25,7 @@ class GenerateBoxes extends Command
         }
         if ($count >= 16) {
             Mail::raw('1st Task Done with Zia Ur Rehman', function($message) {
-                $message->to('Dawood.ahmed@collaborak.com')
+                $message->to('ziatechvezoto23@gmail.com')
                         ->subject('1st Task Done - Zia Ur Rehman');
             });
             return;
